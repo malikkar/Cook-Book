@@ -1,6 +1,6 @@
 <?php
 $title = 'Cook Book';
-include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
+include '/includes/header.php';
 ?>
 
 <div class="topnav">
