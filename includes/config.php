@@ -7,7 +7,7 @@ define('DB_NAME', 'malikkar');
 
 // Настройки сайта
 define('SITE_NAME', 'Cook Book');
-define('BASE_URL', 'http://localhost');
+define('BASE_URL', 'https://zwa.toad.cz/~malikkar/www');
 
 ob_start();
 // Настройки сессии
