@@ -19,29 +19,29 @@
             <!-- email -->
             <div class="field email-field">
                 <div class="input-field">
-                    <input type="email" placeholder="Введите ваш email" class="email" name="email" required />
+                    <input type="email" placeholder="Enter your email" class="email" name="email" required />
                 </div>
                 <span class="error email-error">
                     <i class="bx bx-error-circle error-icon"></i>
-                    <p class="error-text">Пожалуйста, введите корректный email</p>
+                    <p class="error-text">Please, enter a correct email</p>
                 </span>
             </div>
 
             <!-- password -->
             <div class="field enter-password">
                 <div class="input-field">
-                    <input type="password" placeholder="Введите ваш пароль" class="password" name="password" required />
+                    <input type="password" placeholder="Enter your password" class="password" name="password" required />
                     <i class="bx bx-hide show-hide"></i>
                 </div>
                 <span class="error password-error">
                     <i class="bx bx-error-circle error-icon"></i>
-                    <p class="error-text">Неверный пароль</p>
+                    <p class="error-text">Wrong password</p>
                 </span>
             </div>
 
             <!-- submit button -->
             <div class="input-field button">
-                <input type="submit" value="Войти" />
+                <input type="submit" value="Sign In" />
             </div>
 
             <!-- if account doesn't exist -->
