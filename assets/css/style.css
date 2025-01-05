@@ -1,0 +1,180 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7e3c1;
+}
+
+.container {
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.container header {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container form {
+    margin-top: 30px;
+}
+
+form .field {
+    margin-bottom: 20px;
+}
+
+form .input-field {
+    position: relative;
+    height: 55px;
+    width: 100%;
+}
+
+.input-field input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+}
+
+.invalid input {
+    border-color: #d93025;
+}
+
+.input-field .show-hide {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #919191;
+    cursor: pointer;
+    padding: 3px;
+}
+
+.field .error {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #d93025;
+    font-size: 13px;
+    display: none;
+}
+
+.invalid .error {
+    display: flex;
+}
+
+.error .error-icon {
+    margin-right: 6px;
+    font-size: 15px;
+}
+
+.create-password .error {
+    align-items: flex-start;
+}
+
+.create-password .error-icon {
+    margin-top: 4px;
+}
+
+.button {
+    margin: 25px 0 6px;
+}
+
+.button input {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #6b2d16;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover {
+    background-color: #a84420;
+}
+
+.field role-field {
+    display: flex; /* Align items in a row */
+    align-items: center;
+    justify-content: flex-start; /* Ensure vertical alignment of elements */
+}
+
+.field role-field.choose input[type="radio"] {
+    width: auto; /* Prevent the radio button from stretching */
+    margin-right: 5px; /* Add spacing between the radio button and the label */
+}
+
+.ifHaveAccount {
+    align-content: center;
+}
+
+@media print {
+    /* Hide navigation bar */
+    .topnav {
+        display: none;
+    }
+
+    /* Hide footer */
+    .footer {
+        display: none;
+    }
+
+    /* Adjust content area for print */
+    .content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Ensure all form fields are visible */
+    input, textarea {
+        border: 1px solid #000;
+        padding: 5px;
+    }
+
+    /* Remove background colors */
+    body, .container, .content {
+        background: #fff;
+        color: #000;
+    }
+
+    /* Adjust font sizes for print */
+    body {
+        font-size: 12pt;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #000;
+    }
+
+    /* Ensure images are displayed correctly */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Remove unnecessary elements */
+    .button, .error-message {
+        display: none;
+    }
+}
