@@ -23,7 +23,7 @@
                 </div>
                 <span class="error email-error">
                     <i class="bx bx-error-circle error-icon"></i>
-                    <p class="error-text">Please, enter a correct email</p>
+                    <p class="error-text">Please, enter a valid email</p>
                 </span>
             </div>
 
